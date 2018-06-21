@@ -18,10 +18,10 @@ Các công nghệ có thể sử dụng giải quyết các yêu cầu trên:
 + OSGI (một nền tảng dùng để phát triển các ứng dụng theo hướng module hóa bằng java) dùng để viết các module cho từng service và quản lý các module đó.
 + Karaf (môi trường dùng để phát triển, triển khai các ứng dụng OSGI) để khởi chạy và quản lý các module, feature.
 + Docker (một công cụ mã nguồn mở cho phép lập trình viên và quản trị viên hệ thống triển khai các ứng dụng thành các containers trên môi trường Linux) cung cấp một công cụ tuyệt vời để triển khai microservices đáp ứng đủ các yêu cầu trên. 
-+ ... (công cụ dùng để quản lý log)
++ ElasticSearch 
 
 * Scope
-- Phạm vi chính là dùng để nghiên cứu các công nghệ: OSGI, Karaf, Docker dùng để xậy dựng một kiến trúc Microservice.
+- Phạm vi chính là dùng để nghiên cứu các công nghệ: OSGI, Karaf, Docker, ElasticSearch,.. dùng để xậy dựng một kiến trúc Microservice.
 - Song với đó xây dựng một ứng dụng minh họa (web application) trên nền kiến trúc đã xây dựng được.
 - Tổng quan về các công nghệ để xây dựng ứng dụng minh họa:
   + Back-End: Kết hợp với Spring framework dùng để sử lý.
@@ -29,5 +29,5 @@ Các công nghệ có thể sử dụng giải quyết các yêu cầu trên:
   + Một số các công nghệ liên quan: hibernate, boostraps, ...
 
 * Result
- - Tìm hiểu và sử dụng được các công nghệ mới và nổi bật hiện nay như: OSGI, Karaf, Spring framework, Hibernate,... 
+ - Tìm hiểu và sử dụng được các công nghệ mới và nổi bật hiện nay như: OSGI, Karaf, Docker,ElasticSearch, Spring framework, Hibernate,... 
  - Tạo ra được một ứng dụng dựa trên kiến trúc Microservice bằng cách áp dụng các công nghệ đã được tìm hiểu.
